@@ -1,0 +1,156 @@
+\documentclass[17pt,extrafontsizes]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+\usepackage{microtype}
+\usepackage[osf]{mathpazo}
+\usepackage{tabularx}
+\usepackage{tket}
+\usepackage{geometry}
+\usepackage{xspace}
+
+\geometry{
+  nohead,
+  nofoot,
+  left=15mm,
+  right=15mm,
+  bottom=15mm,
+  top=15mm,
+}
+\pagestyle{empty}
+\newcommand{\rk}{&&\\\hline}
+\newcommand{\rkk}{&&&\\\hline}
+
+\linespread{1.4}
+
+\newcommand*{\skema}[3]{\newpage\begin{center}
+  \TKETS optællingsliste for uge #1 \\[.1\baselineskip]\footnotesize
+  fra #2 til #3
+\end{center}
+
+\bigskip\noindent%
+\begin{center}
+  
+
+\begin{minipage}[t]{.65\linewidth}
+  \centerline{Spilledåsen}\vspace{.1\baselineskip}
+  \begin{tabularx}{\linewidth}{|@{}*2{>{\centering\arraybackslash}p{6em}|}>{\centering\arraybackslash}X@{}|}
+    \hline Dato & Kr. $\pm$ & Sign. \\\hline
+    \rk\rk\rk\rk\rk\rk
+    \hline Total &&\\\hline%\multicolumn{2}{l|}{}\\\hline
+  \end{tabularx}
+  \par\vspace*{.1\baselineskip}
+  \begin{centering}
+    \footnotesize
+    $+$ når penge lægges i spilledåsen\\[-.4\baselineskip]
+    $-$ når penge lægges i pengeskabet\\
+  \end{centering}
+\end{minipage}
+\end{center}
+
+\bigskip\noindent
+\begin{tabularx}{\linewidth}{@{}r@{\space}>{\hrulefill}X@{\space}>{(}l<{)}}
+  Spilledåse optælling &\\
+  Øl optælling &\\
+  Vand optælling &\\
+  Dankort &\\
+\end{tabularx}}
+\begin{document}
+\skema{2014-39}{22. september 2014}{28. september 2014}
+\skema{2014-40}{29. september 2014}{5. oktober 2014}
+\skema{2014-41}{6. oktober 2014}{12. oktober 2014}
+\skema{2014-42}{13. oktober 2014}{19. oktober 2014}
+\skema{2014-43}{20. oktober 2014}{26. oktober 2014}
+\skema{2014-44}{27. oktober 2014}{2. november 2014}
+\skema{2014-45}{3. november 2014}{9. november 2014}
+\skema{2014-46}{10. november 2014}{16. november 2014}
+\skema{2014-47}{17. november 2014}{23. november 2014}
+\skema{2014-48}{24. november 2014}{30. november 2014}
+\skema{2014-49}{1. december 2014}{7. december 2014}
+\skema{2014-50}{8. december 2014}{14. december 2014}
+\skema{2014-51}{15. december 2014}{21. december 2014}
+\skema{2014-52}{22. december 2014}{28. december 2014}
+\skema{2015-1}{29. december 2014}{4. januar 2015}
+\skema{2015-2}{5. januar 2015}{11. januar 2015}
+\skema{2015-3}{12. januar 2015}{18. januar 2015}
+\skema{2015-4}{19. januar 2015}{25. januar 2015}
+\skema{2015-5}{26. januar 2015}{1. februar 2015}
+\skema{2015-6}{2. februar 2015}{8. februar 2015}
+\skema{2015-7}{9. februar 2015}{15. februar 2015}
+\skema{2015-8}{16. februar 2015}{22. februar 2015}
+\skema{2015-9}{23. februar 2015}{1. marts 2015}
+\skema{2015-10}{2. marts 2015}{8. marts 2015}
+\skema{2015-11}{9. marts 2015}{15. marts 2015}
+\skema{2015-12}{16. marts 2015}{22. marts 2015}
+\skema{2015-13}{23. marts 2015}{29. marts 2015}
+\skema{2015-14}{30. marts 2015}{5. april 2015}
+\skema{2015-15}{6. april 2015}{12. april 2015}
+\skema{2015-16}{13. april 2015}{19. april 2015}
+\skema{2015-17}{20. april 2015}{26. april 2015}
+\skema{2015-18}{27. april 2015}{3. maj 2015}
+\skema{2015-19}{4. maj 2015}{10. maj 2015}
+\skema{2015-20}{11. maj 2015}{17. maj 2015}
+\skema{2015-21}{18. maj 2015}{24. maj 2015}
+\skema{2015-22}{25. maj 2015}{31. maj 2015}
+\skema{2015-23}{1. juni 2015}{7. juni 2015}
+\skema{2015-24}{8. juni 2015}{14. juni 2015}
+\skema{2015-25}{15. juni 2015}{21. juni 2015}
+\skema{2015-26}{22. juni 2015}{28. juni 2015}
+\skema{2015-27}{29. juni 2015}{5. juli 2015}
+\skema{2015-28}{6. juli 2015}{12. juli 2015}
+\skema{2015-29}{13. juli 2015}{19. juli 2015}
+\skema{2015-30}{20. juli 2015}{26. juli 2015}
+\skema{2015-31}{27. juli 2015}{2. august 2015}
+\skema{2015-32}{3. august 2015}{9. august 2015}
+\skema{2015-33}{10. august 2015}{16. august 2015}
+\skema{2015-34}{17. august 2015}{23. august 2015}
+\skema{2015-35}{24. august 2015}{30. august 2015}
+\skema{2015-36}{31. august 2015}{6. september 2015}
+\skema{2015-37}{7. september 2015}{13. september 2015}
+\skema{2015-38}{14. september 2015}{20. september 2015}
+\skema{2015-39}{21. september 2015}{27. september 2015}
+\skema{2015-40}{28. september 2015}{4. oktober 2015}
+\skema{2015-41}{5. oktober 2015}{11. oktober 2015}
+\skema{2015-42}{12. oktober 2015}{18. oktober 2015}
+\skema{2015-43}{19. oktober 2015}{25. oktober 2015}
+\skema{2015-44}{26. oktober 2015}{1. november 2015}
+\skema{2015-45}{2. november 2015}{8. november 2015}
+\skema{2015-46}{9. november 2015}{15. november 2015}
+\skema{2015-47}{16. november 2015}{22. november 2015}
+\end{document}
+
+Følgende er Perl-kode, der kan generere \skema-linjer:
+
+#!/usr/bin/perl -w
+#
+# File: uger.pl
+# Time-stamp: <2012-08-25 12:50:24 spet>
+# Author: Steffen Videbæk Petersen
+
+use utf8;
+use strict;
+use DateTime;
+
+# Det forventes at der i det følge sættes en dato, der er en mandag!
+my $dt = DateTime->new(
+    locale => "da_DK",
+    year => 2012,
+    month => 8,
+    day => 27
+);
+
+my $datoformat = "%{day}. %B %Y";
+
+# Hvor mange uger skal genereres?
+for (1..61) {
+    printf "\\skema{%s-%s}{%s}{%s}\n",
+	$dt->week,
+	$dt->strftime($datoformat),
+	$dt->add(days => 6)->strftime($datoformat);
+    $dt->add(days => 1);
+}
+
+%%% Local Variables: 
+%%% mode: latex
+%%% TeX-master: t
+%%% End: 
