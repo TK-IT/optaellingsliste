@@ -1,0 +1,64 @@
+\documentclass[17pt,extrafontsizes]{memoir}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[danish]{babel}
+\usepackage{microtype}
+\usepackage[osf]{mathpazo}
+\usepackage{tabularx}
+\usepackage{geometry}
+\usepackage{xspace}
+\usepackage{perpage}
+\usepackage{tket}
+\MakePerPage{footnote}
+
+
+
+\geometry{
+  nohead,
+  nofoot,
+  left=15mm,
+  right=15mm,
+  bottom=15mm,
+  top=15mm,
+}
+\pagestyle{empty}
+\newcommand{\rk}{&&\\\hline}
+\newcommand{\rkk}{&&&\\\hline}
+
+\linespread{1.4}
+
+\begin{document}
+\begin{center}
+  \TKETS Optællingsliste
+\end{center}
+
+\bigskip\noindent%
+\begin{center}
+
+
+\begin{minipage}[t]{.65\linewidth}
+  \centerline{Spilledåsen}\vspace{.1\baselineskip}
+  \begin{tabularx}{\linewidth}{|@{}*2{>{\centering\arraybackslash}p{6em}|}>{\centering\arraybackslash}X@{}|}
+    \hline Dato & Kr. $\pm$ & Sign. \\\hline
+    \rk\rk\rk\rk\rk\rk\rk
+    \hline Total &&\\\hline%\multicolumn{2}{l|}{}\\\hline
+  \end{tabularx}
+  \par\vspace*{.1\baselineskip}
+  \begin{centering}
+    \footnotesize
+    $+$ når penge lægges i spilledåsen\\[-.4\baselineskip]
+    $-$ når penge lægges i pengeskabet\\
+  \end{centering}
+\end{minipage}
+\end{center}
+
+\bigskip\noindent
+\begin{tabularx}{\linewidth}{@{}r@{\space}>{\hrulefill}X@{\space}>{(}l<{)}}
+  Spilledåse optælling &\\
+  Øl optælling &\\
+  Vand optælling &\\
+  MobilePay &\\
+  MobilePay opgjort dato og tid &\\
+\end{tabularx}
+
+\end{document}
